@@ -1,0 +1,9 @@
+[vpn]
+source = "vless://REPLACE_WITH_UUID@203.0.113.50:443?type=tcp#ReplaceMe"
+tun_interface = "happ-xray"
+
+[monitor]
+interval_seconds = 3
+failure_threshold = 3
+dns_refresh_seconds = 60
+profile_refresh_seconds = 900
