@@ -7,6 +7,7 @@
 ## Установка для разработки
 
 ```bash
+git clone https://github.com/DanyaKramer/Kill-Switcher-Happ-VPN.git && cd Kill-Switcher-Happ-VPN
 python3 -m venv .venv
 . .venv/bin/activate
 pip install -e '.[dev]'
